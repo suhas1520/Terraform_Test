@@ -1,6 +1,7 @@
 resource "aws_vpc" "my_vpc_test_task" {
     cidr_block = var.cidr_block
 
+
 }
 
 resource "aws_subnet" "sub1" {
